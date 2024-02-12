@@ -1,0 +1,164 @@
+/* Global Styles */
+
+body {
+    background-color: #A62929;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #A62929;
+    text-decoration: none;
+}
+
+#container {
+    background-color: white;
+    width: 86%;
+    margin: 20px auto;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #A62929;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+/*Desktop Styles*/
+
+nav {
+    background-color: #F2A922;
+    padding: 5px 0;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #A62929;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+nav li a:hover {
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: #F2A922;
+    text-shadow: 2px 2px 2px #A62929;
+}
+
+main {
+    padding: 20px;
+}
+
+
+main img {
+    width: 80%;
+}
+
+#lower {
+    display: flex;
+}
+
+.col1 {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #A62929;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col2 {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #A62929;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col3 {
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #A62929;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col1 img {
+    border-radius: 30px;
+    margin: 5px;
+    padding:80px;
+    width: 100%;
+}
+
+.col2 img {
+    border-radius: 30px;
+}
+
+.col3 img {
+    border-radius: 30px;
+}
+
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+}
+
+.button {
+    display: block;
+    background-color: #A62929;
+    width: 190px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hoover {
+    color: white;
+}
+
+#Recipes {
+    display: flex;
+}
+
+.Recipes1 img {
+    width: 50%;
+}
