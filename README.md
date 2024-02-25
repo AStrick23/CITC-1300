@@ -5,4 +5,5 @@ CITC 1300 Project Page A.S.
     <li><a href= "html5_intro_css/index.html" target="_blank">HTML5 and Intro to CSS</a></li>
     <li><a href= "adv_css/index.html" target="_blank">Adv CSS</a></li>
     <li><a href= "responsive/index.html" target="_blank">Responsive Design</a></li>
+    <li><a href= "html5_intro_to_css/index.html" target="_blank">HTML5 Intro to CSS</a></li>
 </ul>

@@ -1,0 +1,76 @@
+body {
+    background-color: hsl(310, 53%, 50%);
+}
+
+#container {
+    background-color: rgb(159, 64, 154);
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid powderblue;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: powderblue;
+    text-shadow: 2px 9px 8px #F2AEDB
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: paleturquoise;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 20px;
+
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+a {
+    color: paleturquoise;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+ul {
+    color: paleturquoise;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    color: paleturquoise;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: hsl(310, 61%, 24%);
+    font-size: 30px;
+}
+
+p {
+    color: paleturquoise;
+    margin: 15px;
+}
+
+hr {
+    color: #F2AEDB;
+}
