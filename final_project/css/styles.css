@@ -1,3 +1,5 @@
+
+
 body {
     background-color: hsl(310, 53%, 50%);
 }
@@ -7,13 +9,13 @@ body {
     padding: 20px;
     width: 75%;
     margin: 0 auto;
-    border: 2px solid powderblue;
+    border: 1px solid powderblue;
 }
 
 header h1 {
     text-align: center;
     font-size: 100px;
-    color: powderblue;
+    color: paleturquoise;
     text-shadow: 2px 9px 8px #F2AEDB
 }
 
@@ -34,19 +36,21 @@ nav a:hover {
     text-decoration: none;
 }
 
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
 main img {
     display: block;
-    width: 50%;
+    width: 80%;
     margin: 20px auto;
 }
 
-a {
-    color: paleturquoise;
-    text-decoration: none;
-}
 
 a:hover {
-    color: white;
+    color:white;
 }
 
 ul {
@@ -62,15 +66,34 @@ footer {
 h2,
 h3 {
     text-align: center;
-    color: hsl(310, 61%, 24%);
+    color: paleturquoise;
     font-size: 30px;
 }
 
 p {
-    color: paleturquoise;
+    color: plum;
     margin: 15px;
 }
 
 hr {
-    color: #F2AEDB;
+    color: #f32fb2;
+}
+
+/*Global Styles*/
+nav{
+    background-color: hsl(310, 50%, 60%);
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    color: yellow;
+    margin-left: 20px;
+    text-decoration: none;
 }
