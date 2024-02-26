@@ -22,7 +22,6 @@ nav {
 }
 
 nav a {
-    color:gb(82, 247, 247);
     font-size: 18px;
     font-weight: bold;
     margin: 0 20px;
@@ -105,7 +104,7 @@ main {
     padding: 20px;
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -113,7 +112,7 @@ img{
     display: flex;
 }
 
-#music{
+#music {
     display: flex;
 }
 
@@ -124,23 +123,23 @@ img{
     width: 33.33%;
 }
 
-footer{
+footer {
     padding: 40px 0;
     text-align: center;
 }
 
-hr{
+hr {
     width: 90%;
 }
 
-.button{
-    background-color:paleturquoise ;
+.button {
+    background-color: paleturquoise;
     display: block;
     width: 125px;
     height: 30px;
     color: rgb(88, 16, 155);
-    text-decoration:none;
-    text-align:center;
+    text-decoration: none;
+    text-align: center;
     line-height: 35px;
     margin-top: 10px;
     border-radius: 10px;
@@ -148,10 +147,67 @@ hr{
     margin-right: auto;
 }
 
-.button:hover{
-    color:hsl(281, 53%, 54%);
+.button:hover {
+    color: hsl(281, 53%, 54%);
 }
 
-#hiphop img{
+#hiphop img {
     width: 50%;
+}
+
+#cartoons img {
+    width: 100%;
+}
+
+.col1 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid paleturquoise;
+    width: 33.33%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col2 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid paleturquoise;
+    width: 33.33%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col3 {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid paleturquoise;
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col3 img {
+    width: 100%;
+}
+
+.col1 img {
+    width: 30%;
+}
+
+#middle {
+    display: inline-block;
+}
+
+.girls1 img {
+    width: 43%;
+}
+
+.girls2 img {
+    width: 43%;
+}
+
+#middle {
+    display: block;
 }
