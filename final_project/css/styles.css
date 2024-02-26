@@ -1,3 +1,4 @@
+/*Global Styles*/
 body {
     background-color: hsl(310, 53%, 50%);
 }
@@ -13,6 +14,7 @@ body {
 header h1 {
     text-align: center;
     font-size: 100px;
+    font-family: "Shadows Into Light", cursive;
     color: rgb(206, 153, 252);
     text-shadow: 2px 20px 20px rgb(239, 70, 194)
 }
@@ -33,6 +35,7 @@ nav a:hover {
     text-decoration: none;
 }
 
+/*Mobile Styles*/
 img {
     display: block;
     margin: 0 auto;
@@ -65,6 +68,9 @@ h3 {
     text-align: center;
     color: paleturquoise;
     font-size: 30px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
@@ -94,6 +100,8 @@ nav li a {
     margin-left: 20px;
     text-decoration: none;
     font-size: 20px;
+    font-family: "Shadows Into Light", cursive;
+    font-style: normal
 }
 
 nav li a:hover {
@@ -147,67 +155,83 @@ hr {
     margin-right: auto;
 }
 
-.button:hover {
-    color: hsl(281, 53%, 54%);
+/*Tablet Styles*/
+@media(min-width:786px) {
+    .button:hover {
+        color: hsl(281, 53%, 54%);
+    }
+
+    #hiphop img {
+        width: 50%;
+    }
+
+    #cartoons img {
+        width: 100%;
+    }
+
+    .col1 {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid paleturquoise;
+        width: 53.1%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col2 {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid paleturquoise;
+        width: 40%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col3 {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid paleturquoise;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col3 img {
+        width: 100%;
+    }
+
+    .col1 img {
+        width: 100%;
+    }
+
+    .col2 img {
+        width: 100%;
+    }
 }
 
-#hiphop img {
-    width: 50%;
-}
+/*Desktop Styles*/
 
-#cartoons img {
-    width: 100%;
-}
+@media(min-width:1024px) {
 
-.col1 {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid paleturquoise;
-    width: 33.33%;
-    height: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    #middle {
+        display: inline-block;
+    }
 
-.col2 {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid paleturquoise;
-    width: 33.33%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .girls1 img {
+        width: 43%;
+    }
 
-.col3 {
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid paleturquoise;
-    width: 33.33%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .girls2 img {
+        width: 43%;
+    }
 
-.col3 img {
-    width: 100%;
-}
+    #middle {
+        display: block;
+    }
 
-.col1 img {
-    width: 30%;
-}
-
-#middle {
-    display: inline-block;
-}
-
-.girls1 img {
-    width: 43%;
-}
-
-.girls2 img {
-    width: 43%;
-}
-
-#middle {
-    display: block;
+    #cartoons {
+        display: flex;
+    }
 }
